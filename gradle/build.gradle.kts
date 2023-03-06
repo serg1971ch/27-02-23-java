@@ -5,8 +5,6 @@ import org.gradle.plugins.ide.idea.model.IdeaLanguageLevel
 
 plugins {
     idea
-    id("io.spring.dependency-management")
-    id("org.springframework.boot") apply false
 }
 
 idea {
